@@ -47,14 +47,14 @@
 
  /* LOGO */
 
- #logo {
+ .logo {
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
  }
- #logo img {
+ .logo img {
   max-width: 20%;
   height: auto !important;
  }
@@ -446,12 +446,12 @@ footer {
    flex-direction: row;
    }
   
-#logo {
+.logo {
   margin: 1px;
   
  
  }
- #logo img {
+ .logo img {
   max-width: 50px;
   height: auto !important;
  }
