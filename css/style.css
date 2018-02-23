@@ -14,15 +14,11 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-   backgroundcolor: black;
+   background-color: black;
   }
  
 
- .img {
-  background-size: cover;
-  width: 100%;
-  height: auto;
- }
+ 
 
 
  /* HEADER */
