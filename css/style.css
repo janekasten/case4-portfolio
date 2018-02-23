@@ -54,13 +54,13 @@
  /* NAVIGATIONSBAR */
  .topnav {
   overflow: hidden;
-  background-color: 73797D;
+  background-color: #73797D;
  }
 
  .topnav a {
   float: left;
   display: block;
-  color: 3F454B;
+  color: #3F454B;
   text-align: center;
   padding: 20px 82px;
   text-decoration: none;
@@ -71,7 +71,7 @@
 
  /* HOVER EFFECTS */
  .topnav a:hover {
-  background-color:3F454B;
+  background-color:#3F454B;
   color: black;
   
  }
