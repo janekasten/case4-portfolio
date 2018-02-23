@@ -58,7 +58,7 @@
  /* NAVIGATIONSBAR */
  .topnav {
   overflow: hidden;
-  background-color: darkgrey;
+  background-color:#ddd;
  }
 
  .topnav a {
@@ -75,7 +75,7 @@
 
  /* HOVER EFFECTS */
  .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
   
  }
@@ -84,7 +84,7 @@
 
 .topnav a:active {
     text-decoration:underline;
- color: aqua;
+ color: black;
 }
 
 
