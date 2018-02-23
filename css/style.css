@@ -16,9 +16,6 @@
    background-size: cover;
    background-color: black;
   }
- 
-
- 
 
 
  /* HEADER */
@@ -39,7 +36,6 @@
 }
 
 
-
  /* LOGO */
 
  .logo {
@@ -58,7 +54,7 @@
  /* NAVIGATIONSBAR */
  .topnav {
   overflow: hidden;
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
  }
 
  .topnav a {
