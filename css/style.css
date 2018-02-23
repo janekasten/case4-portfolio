@@ -60,7 +60,7 @@
  .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px 82px;
   text-decoration: none;
@@ -72,7 +72,7 @@
  /* HOVER EFFECTS */
  .topnav a:hover {
   background-color:#3F454B;
-  color: black;
+  color: white;
   
  }
 
