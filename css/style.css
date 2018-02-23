@@ -3,9 +3,6 @@
   }
 
 
-  /*GLOBAL*/
-
-  
   body {
    margin: 0;
    width: 100%;
@@ -15,15 +12,19 @@
    background-attachment: fixed;
    background-size: cover;
    background-color: black;
+   font-weight: bold;
   }
+ 
 
+ 
 
  /* HEADER */
 
  header {
-  background-color: transparent;
+  background-color: black;
   padding: 2px;
   text-align: center;
+  color: whitesmoke
  
 }
  
@@ -34,6 +35,7 @@
  font-weight:lighter;
  line-height: 1.25;
 }
+
 
 
  /* LOGO */
@@ -54,13 +56,13 @@
  /* NAVIGATIONSBAR */
  .topnav {
   overflow: hidden;
-  background-color: #73797D;
+  background-color: darkgray;
  }
 
  .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 20px 82px;
   text-decoration: none;
@@ -71,8 +73,8 @@
 
  /* HOVER EFFECTS */
  .topnav a:hover {
-  background-color:#3F454B;
-  color: white;
+  background-color: #ddd;
+  color: black;
   
  }
 
@@ -80,7 +82,7 @@
 
 .topnav a:active {
     text-decoration:underline;
- color: black;
+ color: whitesmoke;
 }
 
 
@@ -88,7 +90,7 @@
  
  .column {
   float: left;
-  width: 25%;
+  width: 33,33%;
   padding: 15px;
   text-align: left;
  }
@@ -107,24 +109,19 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background-color: transparent;
   padding: 1em;
+  
   
  }
 
  .flex-box img {
-  justify-content: space-around;
+ justify-content: space-around;
   border-color: white;
   border: 1px solid white;
   
+  
  }
 
-
- /*FORSIDE*/
-
-
- 
-}
  
  #box{
   display: flex;
@@ -137,6 +134,7 @@
 
 #box img{
  border: 1px solid white;
+margin-left: 8%;
 }
 
 .columnfront {
@@ -240,32 +238,15 @@ footer {
     .fa {
         color: white;
     }
-
- /* LAPTOP */
-
-@media (min-width:1024) and (max-width:1440px)
-
-
-
- /* IPAD */
-
-  @media (min-width:601px) and (max-width:1023px)
- 
- 
-  .column {
-   width: 100%;
+.column {
+   width: 25%;
   }
   
   .topnav {
-   padding: 14px 18px;
-   float:;
-   
-  }
+   padding: 14px 18px;}
   
   .topnav a {
-   float:;
-   padding: inherit;
-  }
+   padding: inherit;}
   
   .flex-box {
    padding: 1px 20px;
@@ -310,21 +291,16 @@ footer {
   .socialicon {
         display: inline-block;
         width: 50px;
-   flex-direction: row;
-   }
+   flex-direction: row;}
 
   
-  }
-  
-  #box{
+   #box{
   
   padding: 1px 20px;
    display: inline-block;
    justify-content: space-between;
   background-color: transparent;
-   
-  
-  }
+}
  
 #box img{
  padding: 0px;
@@ -343,9 +319,7 @@ footer {
   }
   
   .topnav {
-   padding: 14px 15px;
-   float: ;
-  }
+   padding: 14px 15px;}
   
   .topnav a {
    float: none;
@@ -408,9 +382,6 @@ footer {
    float: none;
 }
   
-  
-  
-  
   footer b {
    color: white;
    
@@ -423,10 +394,7 @@ footer {
   margin-left: -10px;}
   
 
- footer p {
-   color: transparent;
-  }
-  
+ 
   .socialicon {
         display: inline-block;
         width: 50px;
@@ -435,14 +403,10 @@ footer {
   
 .logo {
   margin: 1px;
-  
- 
  }
+	 
  .logo img {
   max-width: 50px;
   height: auto !important;
- }
-
-
- 
-  
+}
+	 
